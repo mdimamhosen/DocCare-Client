@@ -42,7 +42,7 @@ const MyProfile = () => {
   const userPhotoUrl = user?.reloadUserInfo?.photoUrl || "";
 
   return (
-    <div className="w-screen flex justify-center  py-10 px-2">
+    <div className="w-screen flex justify-center  py-9 px-2">
       <div className="bg-white max-w-2xl shadow overflow-hidden sm:rounded-lg  border ">
         <div className="px-4 py-5 sm:px-6 flex justify-between items-center">
           <div>
