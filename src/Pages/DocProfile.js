@@ -31,7 +31,7 @@ const DocProfile = () => {
       });
   }, [id]);
   React.useEffect(() => {
-    document.title = `${docProfile?.name || ""} || DocCare`;
+    document.title = `${docProfile?.name || " "} || DocCare`;
   });
 
   return (
