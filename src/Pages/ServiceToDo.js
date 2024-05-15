@@ -102,7 +102,7 @@ const ServiceToDo = () => {
               <h1 className="text-lg md:text-xl lg:text-3xl font-bold capitalize text-center">
                 Perform Services Task
               </h1>
-              <div className="grid py-5 container mx-auto px-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-1 lg:gap-4">
+              <div className="grid py-4 container mx-auto px-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-1 lg:gap-4">
                 {allServices.map((service, index) => (
                   <Slide
                     key={index}
