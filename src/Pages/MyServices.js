@@ -143,7 +143,7 @@ const MyServices = () => {
         </h1>
       </div>
 
-      <div className="grid py-5 container mx-auto px-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-1 lg:gap-4">
+      <div className="grid py-4 container mx-auto px-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-1 lg:gap-4">
         {allServices.length === 0 ? (
           <div className="text-center h-[60vh] flex flex-col justify-center items-center gap-2">
             <h1 className="text-2xl font-bold">No Services Found</h1>
