@@ -22,7 +22,7 @@ const About = () => {
         <motion.img
           src={img}
           alt="Doctor"
-          className="w-full lg:w-1/2 mb-5 lg:mb-0 rounded-lg shadow-lg"
+          className="w-full lg:w-1/2 mb-4 lg:mb-0 rounded-lg shadow-lg"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.5 }}
         />
