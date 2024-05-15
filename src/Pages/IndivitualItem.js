@@ -92,7 +92,7 @@ const IndividualItem = () => {
           />
         </div>
       ) : (
-        <div className="grid border w-11/12 mx-auto grid-cols-1 lg:grid-cols-2 gap-4 p-2 my-5 font-mono">
+        <div className="grid border w-11/12 mx-auto grid-cols-1 lg:grid-cols-2 gap-4 p-2 my-4 font-mono">
           <div>
             <img
               src={service?.image}
