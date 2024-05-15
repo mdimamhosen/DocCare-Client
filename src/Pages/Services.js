@@ -88,7 +88,7 @@ const Services = () => {
           onChange={changeHandler}
         />
       </div>
-      <div className="grid py-5 container mx-auto px-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-1 lg:gap-4">
+      <div className="grid py-4 container mx-auto px-2 grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-1 lg:gap-4">
         {filteredServices.map((service, index) => (
           <Slide
             key={index}
