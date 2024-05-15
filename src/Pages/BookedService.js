@@ -83,7 +83,7 @@ const BookedService = () => {
               <h1 className="text-2xl font-bold">No Booked Services Found</h1>
               <NavLink
                 to="/services"
-                className="bg-blue-500 font-bold hover:bg-blue-600 transition-all duration-300 ease-linear p-2 text-white rounded"
+                className="bg-blue-500 font-bold hover:bg-blue-700 transition-all duration-300 ease-linear p-2 text-white rounded"
               >
                 Book Service
               </NavLink>
