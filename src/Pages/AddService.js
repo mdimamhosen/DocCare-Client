@@ -197,7 +197,7 @@ const AddService = () => {
         <div className="flex justify-center items-center">
           <button
             type="submit"
-            className="w-full mx-auto bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none"
+            className="w-full mx-auto bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none"
           >
             Add Service
           </button>
