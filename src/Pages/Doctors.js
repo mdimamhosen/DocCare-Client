@@ -46,7 +46,7 @@ const Doctors = () => {
 
   return (
     <div className="container mx-auto px-2 my-4">
-      <h1 className="text-3xl text-center md:text-start font-semibold px-2 mt-8 mb-4">
+      <h1 className="text-3xl text-center md:text-start font-semibold px-2 mt-8 mb-3">
         Our Doctors
       </h1>
       <p class="text-xs w-11/12 md:w-[60%] text-start mt-2 mb-4 px-2  ">
