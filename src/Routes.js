@@ -16,6 +16,7 @@ import BookedService from "./Pages/BookedService";
 import Doctors from "./Pages/Doctors";
 import DocProfile from "./Pages/DocProfile";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
+
 const routes = createBrowserRouter([
   {
     path: "/",
