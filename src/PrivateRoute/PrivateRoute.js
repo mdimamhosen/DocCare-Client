@@ -12,9 +12,6 @@ const PrivateRoute = ({ children }) => {
     return (
       <div className="w-screen h-screen flex justify-center items-center">
         <Triangle
-          // height="100"
-          // className="w-screen h-screen"
-          // width="100"
           color="blue"
           ariaLabel="triangle-loading"
           wrapperStyle={{ position: "absolute", top: "45%" }}
