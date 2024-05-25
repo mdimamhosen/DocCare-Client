@@ -23,7 +23,7 @@ const SixCard = () => {
     document.title = "Home || DocCare";
   });
   return (
-    <div className=" mt-5">
+    <div className=" mt-10">
       {loading && (
         <>
           <div className="w-screen h-screen flex justify-center items-center ">
@@ -38,10 +38,10 @@ const SixCard = () => {
       )}
 
       <>
-        <h1 className="text-lg md:text-3xl lg:text-5xl font-bold capitalize text-center">
+        <h1 className="text-lg md:text-3xl lg:text-5xl font-bold capitalize text-center my-10">
           Popular Services
         </h1>
-        <div className="grid py-5 container mx-auto px-2 grid-cols-1 md:grid-cols-2 gap-1 lg:gap-4">
+        <div className="grid py-5 container mx-auto px-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-4">
           {allServices.slice(0, 6).map((service, index) => (
             <Slide
               key={index}

@@ -93,7 +93,7 @@ const ServiceToDo = () => {
         <>
           {allServices.length === 0 ? (
             <div className="text-center h-[60vh] flex flex-col justify-center items-center gap-2">
-              <h1 className="text-2xl font-bold capitalize text-gray-800">
+              <h1 className="text-2xl font-bold capitalize  ">
                 None have booked your Services
               </h1>
             </div>

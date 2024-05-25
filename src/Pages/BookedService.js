@@ -66,7 +66,7 @@ const BookedService = () => {
   };
 
   return (
-    <div className="font-mono mt-5">
+    <div className="font-mono mt-5 h-screen">
       {loading ? (
         <div className="w-screen h-screen flex justify-center items-center ">
           <InfinitySpin
